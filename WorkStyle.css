@@ -1,0 +1,100 @@
+body
+{
+    background-color: #15141f; 
+}
+
+p
+{
+    font-family: 'Lateef', cursive;
+    color: #F7786B;
+    font-size: 1.2rem;
+}
+
+h3
+{
+    color: #E15D44;
+    font-family: 'Lateef', cursive;
+    font-size: 1.6rem;
+    font-weight: bold;
+    
+}
+
+h4
+{
+    font-family: 'Merriweather', serif;      /* font-family: 'Tangerine', cursive; */
+    font-size: 4rem;
+    color: #EC9787;
+    padding: 1.5% 1.5% 6%;
+    text-align: center;
+}
+
+
+#last
+{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    padding-bottom: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; 
+    
+}
+
+.bottom
+{
+    color: #E15D44;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    margin: 15px 15px;
+}
+
+.bottom:hover
+{
+    color: #c65353;
+}
+
+#copyright
+{
+    padding-top: 1.2%;
+    color: #E15D44;
+}
+
+#skills     /* -------------------------------------------- feature section --------------------------------------------- */
+{
+    padding: 7% 14%;
+    /*background-color: #fff; */
+    z-index: 1;
+    position: relative;
+}
+
+.feature-box
+{
+    text-align: center;
+    padding: 4% 8%; 
+    
+}
+
+.card-body
+{
+    background-color: rgba(21, 20, 31, 1);
+    opacity: 1;
+}
+
+.card-body:hover
+{
+    box-shadow:
+                1px 1px #BD3D3A,
+                2px 2px #BD3D3A,
+                3px 3px #BD3D3A;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+
+.card-title
+{
+    color: #9896A4;
+}
